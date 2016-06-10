@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker buils -t ivantichy/jenkins .
+docker build -t ivantichy/jenkins .
