@@ -9,7 +9,7 @@ apt-get install sudo -y -q && \
 apt-get install maven -y -q && \
 rm -rf /var/lib/apt/lists/*
 
-RUN groupadd docker -g 999 && usermod -G docker jenkins
+#RUN groupadd docker -g 999 && usermod -G docker jenkins
 
 
 USER jenkins
