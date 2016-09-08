@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t ivantichy/jenkins .
+docker build -t ivantichy/kon-jenkins .
